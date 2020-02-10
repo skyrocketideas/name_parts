@@ -1,6 +1,6 @@
 "use strict";
 
-const fullName = "Dave Bloody Brubeck";
+const fullName = "Graeme Cassidy Clark";
 
 const firstSpace = fullName.indexOf(" ");
 const secondSpace = fullName.indexOf(" ", firstSpace + 1);
