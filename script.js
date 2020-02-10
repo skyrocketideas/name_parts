@@ -10,11 +10,6 @@ const middleName = fullName.substring(firstSpace + 1, secondSpace);
 const lastName = fullName.substring(secondSpace + 1);
 const newFullName = `${firstName} ${middleName} ${lastName}`;
 
-// document.querySelector("h2").textContent =
+document.querySelector("h2").textContent = newFullName;
 
-console.log(firstSpace);
-console.log(secondSpace);
-console.log(firstName);
-console.log(middleName);
-console.log(lastName);
 console.log(newFullName);
