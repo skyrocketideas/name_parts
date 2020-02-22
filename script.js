@@ -13,3 +13,9 @@ const newFullName = `${firstName} ${middleName} ${lastName}`;
 document.querySelector("h2").textContent = newFullName;
 
 console.log(newFullName);
+
+if (fullName !== "John") {
+  console.log("indeed");
+} else {
+  console.log("nope");
+}
